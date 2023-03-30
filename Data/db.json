@@ -2,38 +2,69 @@
   "cards": [
     {
       "pk": 0,
-      "name": "Pratik Nimje ",
-      "link": "httpakjnaflna",
-      "bucket": "DC Studios",
+      "name": "How is AI driving quality management transformation in contact centers? | Convin",
+      "link": "https://www.youtube.com/embed/EtrgshV2k5c",
+      "bucket": "Education",
       "id": 1
     },
     {
       "pk": 0,
-      "name": "Ujju boi lavda",
-      "link": "sdvffv",
-      "bucket": "IIT",
+      "name": "Customer sentiment analysis - the ultimate deal breaker for contact center CX | Convin",
+      "link": "https://www.youtube.com/embed/ATJKa_zrm2E",
+      "bucket": "Education",
       "id": 2
     },
     {
       "pk": 0,
-      "name": "shubh",
-      "link": "httpakjnaflna",
-      "bucket": "Marvel studios",
+      "name": "How to improve contact center interactions with AI? |Convin",
+      "link": "https://www.youtube.com/embed/lOp4WCI7V3Q",
+      "bucket": "Education",
+      "id": 3
+    },
+    {
+      "pk": 0,
+      "name": "𝐆𝐎𝐋𝐃 🥇 𝐅𝐎𝐑 𝐈𝐍𝐃𝐈𝐀 - NITU GHANGHAS beat Lutsaikhan Atlantsetseg of Mongolia by 5-0 in the FINAL 🥊",
+      "link": "https://www.youtube.com/embed/YE7bI8g1Tcs",
+      "bucket": "Sports",
       "id": 4
+    },
+    {
+      "pk": 0,
+      "name": "Zareen Nikhat Wins Gold | Women's Boxing | Highlights | Commonwealth Games | 7th August 2022",
+      "link": "https://www.youtube.com/embed/uu7N6sJ_5vI",
+      "bucket": "Sports",
+      "id": 5
+    },
+    {
+      "pk": 0,
+      "name": "   Amit Panghal Wins Gold | Men's Boxing | Highlights | Commonwealth Games | 7th August 2022",
+      "link": "https://www.youtube.com/embed/eKb3s0HbqUk",
+      "bucket": "Sports",
+      "id": 6
     }
   ],
   "buckets": [
     {
-      "bname": "Marvel studios",
-      "id": "efGNAns"
+      "bname": "Education",
+      "id": 1
     },
     {
-      "bname": "School",
-      "id": "trZ0AeM"
+      "bname": "Sports",
+      "id": 2
+    }
+  ],
+  "history": [
+    {
+      "name": "How is AI driving quality management transformation in contact centers? | Convin",
+      "link": "https://www.youtube.com/embed/EtrgshV2k5c",
+      "time": "Thu Mar 30 2023 07:21:23 GMT+0530 (India Standard Time)",
+      "id": 1
     },
     {
-      "bname": "COD",
-      "id": "sHrvJzP"
+      "name": "Zareen Nikhat Wins Gold | Women's Boxing | Highlights | Commonwealth Games | 7th August 2022",
+      "link": "https://www.youtube.com/embed/uu7N6sJ_5vI",
+      "time": "Thu Mar 30 2023 07:27:13 GMT+0530 (India Standard Time)",
+      "id": 2
     }
   ]
 }

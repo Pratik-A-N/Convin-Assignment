@@ -1,5 +1,5 @@
 import React ,{ useEffect, useState } from "react";
-import { Form, FormGroup, Input, Label } from "reactstrap";
+import { Form, FormGroup, Input } from "reactstrap";
 import axios from "axios";
 export default function CreateCard() {
 
@@ -63,46 +63,57 @@ export default function CreateCard() {
       };
 
   return (
-    <div>
-        <Form onSubmit={(e) => {handleSubmit(e)}}>
+    <div className="row display-flex justify-content-center fl-cl">
+      <div className="col-lg-6 blue pt-5"><h3>Create New Card</h3></div>
+      <div className="col-lg-4">
+      <Form onSubmit={(e) => {handleSubmit(e)}}>
               <FormGroup>
-                <Label for="" >Name:</Label>
                 <Input
                   type="text"
                   name="name"
                   onChange={(e) =>{onChange(e)}}
                   value={card.name}
+                  placeholder ="Name"
                   required
+                  className="mt-4 mb-4"
+
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="" >Link:</Label>
+              
                 <Input
                   type="text"
                   name="link"
                   onChange={(e) =>{onChange(e)}}
                   value={card.link}
                   required
+                  placeholder="Link"
+                  className="mt-4 mb-4"
+
                 />
               </FormGroup>
               <FormGroup>
-                <Label for="" >Bucket:</Label>
+                
                 <Input
                   type="text"
                   name="bucket"
                   onChange={(e) =>{onChange(e)}}
                   value={card.bucket}
                   required
+                  placeholder="Bucket"
+                  className="mt-4 mb-4"
+
                 />
               </FormGroup>
 
               <div className="extbt">
-                <button className="bt1">
+                <button className="btn btn-primary">
                     <span id="afterload">Create</span>
                 </button>
               </div>
         </Form>
 
+      </div>
     </div>
   )
 }

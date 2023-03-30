@@ -41,3 +41,62 @@
 .form-edit{
   display: none;
 }
+
+.side-nav{
+  border-right: 1px solid grey;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.fluid-container{
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.histbt{
+  display: block;
+  padding: 2vh 3vh;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.bucket{
+  border-top: 1px solid grey;
+}
+
+.blue{
+  color: rgb(21, 60, 92);
+  font-size: 2vh;
+}
+
+.bktbt{
+  border: none;
+  padding: 1vh 3vh;
+  width: 80%;
+  border-radius: 1vh;
+  margin: 2vh;
+}
+
+.bktbt:hover{
+  background-color: grey;
+  color: white;
+}
+
+.fl-cl{
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5vh;
+  border-bottom: 1px solid grey;
+}
+
+.card{
+  margin: 2vh;
+  
+}
+
+.button-cont{
+  display: flex;
+  justify-content: space-around;
+}
+

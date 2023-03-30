@@ -10,19 +10,20 @@ const BucketComponent = props => {
         .then(data =>{
           setbuckets(data);
         })
+        
     }, [])
-    
+
     const handleBucket =(e) =>{
         props.onChange(e)
     }
 
   return (
     <div>
-        <ul>
+        
             {buckets && buckets.map((bucket)=>{
-                return <li><button onClick={(e) => handleBucket(bucket.bname)}>{bucket.bname}</button></li>
+                return <div><button className='bktbt' onClick={(e) => handleBucket(bucket.bname)}>{bucket.bname}</button></div>
             })}
-        </ul>
+        
     </div>
   )
 }
